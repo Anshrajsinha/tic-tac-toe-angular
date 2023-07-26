@@ -1,0 +1,52 @@
+button {
+    position: relbuttontive;
+    background-color: #fff;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    padding: 8px 25px;
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+button:hover {
+    background: rgb(115, 228, 202);
+    color: black; 
+    /* letter-spacing: 0.25em; */
+    box-shadow: 0 0 35px rgb(115, 228, 202);
+    cursor: pointer;
+    transform: scale(1.08);
+}
+/* button:before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+    background: #27282c;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer-cont {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #b1f934 100%, #cc99ff 0%);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 0px;
+}
+app-board {
+    border: 1px solid grey;
+    height: 24vh;
+}
